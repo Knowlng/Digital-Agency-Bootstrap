@@ -1,0 +1,43 @@
+body {
+    font-family: "Montserrat" !important;
+    color: rgb(42, 42, 42) !important;
+}
+
+/* top container */
+
+.logo img {
+    max-width: 64px;
+}
+
+.navigation {
+    display:inline-block;
+}
+
+.navigation ul li {
+    display: inline;
+    margin-right:30px;
+}
+
+.navigation ul li:last-child {
+    margin-right: 0px;
+}
+
+
+.navigation ul li a {
+    text-decoration: none;
+    color: rgb(42, 42, 42);
+    text-transform: uppercase;
+}
+
+.navigation ul li a:hover {
+    opacity: 0.7;
+    color: rgb(42, 42, 42);
+}
+
+.navigation ul li a:visited {
+    text-decoration: none;
+    color: rgb(42, 42, 42);
+    text-transform: uppercase;
+}
+
+/* top container end */
