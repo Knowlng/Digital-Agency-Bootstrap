@@ -3,6 +3,15 @@ body {
     color: rgb(42, 42, 42) !important;
 }
 
+h1 {
+    font-size: 50px !important;
+    font-weight: 900 !important;
+}
+
+.p-desc {
+    font-weight: 700 !important;
+}
+
 /* top container */
 
 .logo img {
@@ -41,3 +50,83 @@ body {
 }
 
 /* top container end */
+
+/* 1 section(hello) start */
+.description-img img {
+    max-width: 100%;
+}
+
+.btn {
+    background-color: rgb(243, 218, 105) !important ;
+    border-color: rgb(243, 218, 105) !important;
+    border-radius: 0px !important;
+    font-weight: bold !important;
+}
+/* 1 section(hello) end */
+
+/* 2 section(our blog) start */
+.card-body h5 {
+    font-weight: bold !important;
+    font-weight: 900 !important;
+}
+
+.card {
+    border: 0px !important;
+}
+/* 2 section(our blog) end */
+
+/* 3 section(showcase) start */
+
+.showcase-img {
+    max-width: 100%;
+}
+
+.padding-bottom {
+    padding-bottom: 24px;
+}
+
+/* 3 section(showcase) end */
+
+/* 4 section(about us) start */
+
+.content-text h5 {
+    font-weight: 700;
+    font-weight: bold !important;
+}
+
+.about-us-img {
+    max-width: 90%;
+}
+
+.caption {
+    /* max-width: 100%; */
+    background-color: rgb(243, 218, 105) !important ;
+
+    width: 55%;
+    bottom:0px;
+    left:0px;
+    padding:5px 5px;
+}
+
+.caption p {
+    color: white;
+    font-size: 12px;
+
+    margin-bottom: 8px;
+    margin-top: 5px;
+    color: white;
+    font-weight: bold;
+    padding-left:10%;
+}
+
+.caption h6 {
+    font-weight: bold !important;
+
+    margin-bottom:5px;
+    margin-top: 5px;
+    padding-left:10%;
+}
+
+
+
+/* 4 section(about us) end */
