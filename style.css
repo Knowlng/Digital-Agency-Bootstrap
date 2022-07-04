@@ -1,6 +1,5 @@
 body {
     font-family: "Montserrat" !important;
-    color: rgb(42, 42, 42) !important;
 }
 
 h1 {
@@ -66,7 +65,6 @@ h1 {
 
 /* 2 section(our blog) start */
 .card-body h5 {
-    font-weight: bold !important;
     font-weight: 900 !important;
 }
 
@@ -91,7 +89,6 @@ h1 {
 
 .content-text h5 {
     font-weight: 700;
-    font-weight: bold !important;
 }
 
 .about-us-img {
@@ -127,6 +124,56 @@ h1 {
     padding-left:10%;
 }
 
-
-
 /* 4 section(about us) end */
+
+/* 5 section(contact us) start */
+
+.content-img img {
+    width:100%;
+    border-radius: 5px;
+}
+
+.content-text-input h5 {
+    font-weight: 900 !important;
+}
+
+.content-text-input input, .content-text-input textarea {
+    border: none;
+    margin-bottom:15px;
+    background-color: rgb(201, 201, 201, 0.1);
+    height: 40px;
+    resize: none;
+    font-weight: 700;
+    width:95%
+}
+
+.content-text-input textarea {
+    height: 180px;
+}
+/* 5 section(contact us) end */
+
+/* 6 section(bottom-contacts) start */
+
+.bottom-img {
+    width:20%;
+}
+
+/* 6 section(bottom-contacts) end */
+
+/* footer start */
+
+footer {
+    background-color: rgb(31, 31, 31) !important;
+    color: white !important;
+}
+
+.copyright {
+    font-size: 10px;
+}
+
+.back-top a {
+    color: white !important;
+}
+
+
+/* fotter end */
