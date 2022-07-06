@@ -17,24 +17,9 @@ h1 {
     max-width: 64px;
 }
 
-.navigation {
-    display:inline-block;
-}
-
-.navigation ul li {
-    display: inline;
-    margin-right:30px;
-}
-
-.navigation ul li:last-child {
-    margin-right: 0px;
-}
-
 
 .navigation ul li a {
-    text-decoration: none;
     color: rgb(42, 42, 42);
-    text-transform: uppercase;
 }
 
 .navigation ul li a:hover {
@@ -51,9 +36,6 @@ h1 {
 /* top container end */
 
 /* 1 section(hello) start */
-.description-img img {
-    max-width: 100%;
-}
 
 .btn {
     background-color: rgb(243, 218, 105) !important ;
@@ -75,9 +57,6 @@ h1 {
 
 /* 3 section(showcase) start */
 
-.showcase-img {
-    max-width: 100%;
-}
 
 .padding-bottom {
     padding-bottom: 24px;
@@ -129,7 +108,6 @@ h1 {
 /* 5 section(contact us) start */
 
 .content-img img {
-    width:100%;
     border-radius: 5px;
 }
 
